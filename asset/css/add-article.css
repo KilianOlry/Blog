@@ -1,0 +1,32 @@
+header {
+  background-color: var(--primary);
+  padding: 1.5rem;
+  box-shadow: var(--box-shadow);
+  color: var(--text-color-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+header .header-menu {
+  margin: 0;
+}
+header .header-menu li {
+  border-radius: 3px;
+  padding: 5px 15px;
+  transition: background 0.2s;
+}
+header .header-menu li a:hover {
+  background: var(--primary-dark);
+}
+header .logo {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--text-color-light);
+}
+
+.active {
+  background: var(--primary-dark);
+}
+
+/*# sourceMappingURL=add-article.css.map */

@@ -32,6 +32,10 @@
     color: var(--text-color);
   }
   
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
   /* text */
   
   .text-danger {
