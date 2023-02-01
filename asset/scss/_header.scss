@@ -1,0 +1,10 @@
+header {
+    background-color: var(--primary);
+    padding: 1.5rem;
+    box-shadow: var(--box-shadow);
+    .logo {
+        font-weight: 700;
+        font-size: 2rem;
+        color: var(--text-color-light);
+      }
+  }
