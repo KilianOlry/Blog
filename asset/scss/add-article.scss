@@ -1,1 +1,54 @@
 @import "header";
+@import "utils";
+.block{
+    border-radius: 3px;
+    border: var(--border);
+    background: white;
+    box-shadow: var(--box-shadow);
+}
+.content {
+    max-width: 100rem;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    
+        h1{
+            margin-bottom: 2rem;
+        }
+        .form-controll{
+            display: flex;
+            flex-direction: column;
+            margin: 1rem 0;
+            label{
+                margin-bottom: 1rem;
+            }
+            input{
+                border: 1px solid var(--border);
+                border-radius: 3px;
+                padding:  1rem 1.5rem;
+            }
+            select{
+                border: 1px solid var(--border);
+                padding:  1rem 1.5rem;
+            }
+            textarea{
+                border: 1px solid var(--border);
+                padding:  1rem 1.5rem;
+                min-height: 20rem;
+            }
+        }
+        .form-action{
+            display: flex;
+            justify-content: flex-end;
+        }
+  }

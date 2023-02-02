@@ -56,15 +56,7 @@
     box-shadow: var(--box-shadow);
   }
   
-  .btn-primary {
-    background-color: var(--primary);
-    color: var(--text-color-light);
-  }
-  .btn-danger {
-    background-color: var(--danger);
-    color: var(--text-color-light);
-  }
-  
+
   .btn-small {
     padding: 5px 10px;
     font-size: 1.4rem;
@@ -79,9 +71,11 @@
     box-shadow: var(--box-shadow);
   }
   .content {
+    max-width: 100rem;
+    width: 100%;
     flex: 1;
     display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
+    flex-flow: column;
+    align-self: center;
+    
   }
